@@ -1,0 +1,12 @@
+.socials {
+  @include reset-list;
+}
+
+.socials__link {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #cccccc;
+  font-size: 0;
+}

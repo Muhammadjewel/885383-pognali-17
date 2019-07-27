@@ -10,59 +10,102 @@
 
     <!-- SITE-HEADER -->
     <header class="site-header">
-      <div class="container">
-        <div class="site-header__top">
+      <div class="site-header__top">
+        <div class="container">
           <a class="logo">
             <img class="logo__img" src="https://placehold.it/100x19" alt="Логотип" width="100" height="19">
           </a>
-          <nav class="site-navigation">
-            <button class="site-navigation__toggle" type="button">Переключатель главного меню</button>
-            <ul class="site-navigation__list">
-              <li class="site-navigation__item"><a class="site-navigation__link" href="#">О сервисе</a></li>
-              <li class="site-navigation__item"><a class="site-navigation__link" href="form.html">Направления</a></li>
-              <li class="site-navigation__item"><a class="site-navigation__link" href="catalog.html">Попутчики</a></li>
-            </ul>
-            <a class="button button--round" href="auth.html">Авторизация</a>
-            <ul class="contacts contacts--site-header">
-              <li class="contacts__item"><a class="contacts__link" href="tel:+88005558628">8 800 555-86-28</a></li>
-              <li class="contacts__item"><a class="contacts__link" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></li>
-            </ul>
-            <ul class="socials socials--site-header">
-              <li class="socials__item"><a class="socials__link" href="#">Facebook</a></li>
-              <li class="socials__item"><a class="socials__link" href="#">VKontakte</a></li>
-              <li class="socials__item"><a class="socials__link" href="#">Instagram</a></li>
-            </ul>
-          </nav>
+          <button class="site-header__menu-toggle" type="button">Переключатель главного меню</button>
         </div>
       </div>
-    </header>
 
-    <!-- SITE-CONTENT -->
-    <main class="site-content">
+      <nav class="site-navigation">
+        <div class="container">
+          <ul class="site-navigation__list">
+            <li class="site-navigation__item"><a class="site-navigation__link" href="#">О сервисе</a></li>
+            <li class="site-navigation__item"><a class="site-navigation__link" href="form.html">Направления</a></li>
+            <li class="site-navigation__item"><a class="site-navigation__link" href="catalog.html">Попутчики</a></li>
+          </ul>
+          <a class="site-navigation__auth-button" href="auth.html">Авторизация</a>
+          <ul class="contacts contacts--site-header">
+            <li class="contacts__item">
+              <a class="contacts__link" href="tel:+88005558628">
+                <span class="contacts__icon-wrapper">
+                  <img class="contacts__icon" src="https://placehold.it/18x18" alt="Иконка телефона">
+                </span>
+                8 800 555-86-28
+              </a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link" href="mailto:mail@htmlacademy.ru">
+                <span class="contacts__icon-wrapper">
+                  <img class="contacts__icon" src="https://placehold.it/18x13" alt="Иконка конверта">
+                </span>
+                mail@htmlacademy.ru
+              </a>
+            </li>
+          </ul>
+          <ul class="socials socials--site-header">
+            <li class="socials__item">
+              <a class="socials__link" href="#">
+                <img src="https://placehold.it/11x21" alt="">
+                Facebook
+              </a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link" href="#">
+                <img src="https://placehold.it/23x12" alt="">
+                VKontakte
+              </a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link" href="#">
+                <img src="https://placehold.it/18x18" alt="">
+                Instagram
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
       <!-- HERO -->
       <section class="hero">
         <div class="container">
           <h2 class="visually-hidden">Нужные ссылки</h2>
-          <b class="hero__lead">В путешествие с крутыми попутчиками!</b>
+          <strong class="hero__lead">В путешествие с крутыми попутчиками!</strong>
           <ul class="ctas ctas--hero">
-            <li class="ctas__item"><a class="ctas__link" href="tel:+88005558628">Позвонить</a></li>
-            <li class="ctas__item"><a class="ctas__link" href="mailto:mail@htmlacademy.ru">Написать</a></li>
-            <li class="ctas__item"><a class="ctas__link" href="auth.html">Авторизация</a></li>
+            <li class="ctas__item">
+              <a class="ctas__link ctas__link--phone" href="tel:+88005558628">
+                <img src="https://placehold.it/18x18" alt="">
+                Позвонить
+              </a>
+            </li>
+            <li class="ctas__item">
+              <a class="ctas__link ctas__link--mail" href="mailto:mail@htmlacademy.ru">
+                <img src="https://placehold.it/18x14" alt="">
+                Написать
+              </a>
+            </li>
+            <li class="ctas__item"><a class="ctas__link ctas__link--auth" href="auth.html">Авторизация</a></li>
           </ul>
-          <blockquote class="testimonial testimonial--hero">
+        </div>
+        <blockquote class="testimonial testimonial--hero">
+          <div class="container">
             <p class="testimonial__text">«Лучшее приложение, что я видел в жизни!»</p>
             <p class="testimonial__author"><b>Мурат Эльтазин<br>главный редактор газеты «гаджетлайф»</b></p>
-          </blockquote>
-          <ol class="action-steps action-steps--hero">
-            <li class="actions-steps__item">Выберите направление</li>
-            <li class="actions-steps__item">Изучите идеи путешественников</li>
-            <li class="actions-steps__item">Находите тех, кто похож на вас</li>
-            <li class="actions-steps__item">Путешествуйте вместе!</li>
-          </ol>
-        </div>
+          </div>
+        </blockquote>
+        <ol class="action-steps action-steps--hero">
+          <li class="actions-steps__item">Выберите направление</li>
+          <li class="actions-steps__item">Изучите идеи путешественников</li>
+          <li class="actions-steps__item">Находите тех, кто похож на вас</li>
+          <li class="actions-steps__item">Путешествуйте вместе!</li>
+        </ol>
       </section>
+    </header>
 
-
+    <!-- SITE-CONTENT -->
+    <main class="site-content">
       <!-- ABOUT -->
       <section class="about site-section site-section--dark">
         <div class="container">

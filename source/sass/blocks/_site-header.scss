@@ -1,0 +1,20 @@
+.site-header {
+  background:
+    url("../img/traveller-illustration-mobile@1x.png") no-repeat 79px 238px,
+    url("../img/globe-back-mobile@1x.jpg") no-repeat top left / cover;
+}
+
+.site-header__top {
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  &--expanded {
+    background-color: #ffffff;
+  }
+}
+
+.site-header__menu-toggle {
+  width: 19px;
+  height: 19px;
+  font-size: 0;
+}

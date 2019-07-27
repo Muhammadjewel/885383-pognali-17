@@ -1,0 +1,25 @@
+.contacts {
+  @include reset-list;
+
+  &--site-header {
+    margin-bottom: 42px;
+  }
+}
+
+.contacts__link {
+  font-weight: bold;
+  color: $dark-color;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.contacts__icon-wrapper {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 16px;
+  background-color: $dark-color;
+}

@@ -1,0 +1,47 @@
+.site-navigation {
+  display: none;
+  background-color: #ffffff;
+
+  &--shown {
+    display: block;
+  }
+}
+
+.site-navigation__list {
+  @include reset-list;
+  margin-top: 48px;
+  margin-bottom: 55px;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.site-navigation__link {
+  text-decoration: none;
+  color: $dark-color;
+}
+
+.site-navigation__auth-button {
+  display: block;
+  padding: 10px 30px;
+  border-radius: 25px;
+  margin-bottom: 51px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  background-color: $accent-color-yellow;
+  color: $button-text-color;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color-yellow-hover;
+  }
+
+  &:active {
+    color: rgba(22, 28, 53, 0.3);
+  }
+}
