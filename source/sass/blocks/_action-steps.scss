@@ -1,0 +1,41 @@
+.action-steps {
+  background-color: $dark-color;
+  color: $button-text-color;
+  font-weight: bold;
+}
+
+.action-steps__list {
+  @include reset-list;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.action-steps__item {
+  padding: 20px;
+
+  &--first {
+    background-color: $accent-color-orange;
+  }
+
+  &--second {
+    background-color: $accent-color-light-orange;
+  }
+
+  &--third {
+    background-color: $accent-color-yellow-hover;
+  }
+
+  &--fourth {
+    background-color: $accent-color-yellow;
+  }
+}
+
+.action-steps__text {
+  display: inline-block;
+  vertical-align: top;
+  width: 160px;
+}
+
+.action-steps__order {
+  color: #ffffff;
+}
