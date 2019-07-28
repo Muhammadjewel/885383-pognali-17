@@ -1,0 +1,28 @@
+.about {
+  position: relative;
+  padding-top: 33px;
+  padding-bottom: 80px;
+  margin-top: -30px;
+  @include rounded-bottom(25px);
+  background-color: $dark-blue-grey;
+  background-image: url("../img/about-mobile@1x.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #ffffff;
+}
+
+.about__heading {
+  padding: 0 25px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: $accent-color-orange;
+}
+
+.about__text {
+  padding: 0 25px;
+  font-weight: 300;
+}
+
+.about__lead {
+  padding: 0 25px;
+}
