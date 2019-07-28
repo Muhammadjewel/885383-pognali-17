@@ -3,3 +3,13 @@
   margin: 0;
   list-style-type: none;
 }
+
+@mixin rounded-top($border-radius) {
+  border-top-left-radius: $border-radius;
+  border-top-right-radius: $border-radius;
+}
+
+@mixin rounded-bottom($border-radius) {
+  border-bottom-left-radius: $border-radius;
+  border-bottom-right-radius: $border-radius;
+}
