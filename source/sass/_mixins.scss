@@ -13,3 +13,30 @@
   border-bottom-left-radius: $border-radius;
   border-bottom-right-radius: $border-radius;
 }
+
+@mixin section-style($bgcolor: #edeff6, $color: #444444) {
+  position: relative;
+  @include rounded-bottom(25px);
+  background-color: $bgcolor;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center top;
+  color: $color;
+
+  &__heading {
+    padding: 0 25px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: $accent-color-orange;
+  }
+
+  &__text {
+    padding: 0 25px;
+    font-weight: 300;
+  }
+
+  &__lead {
+    padding: 0 25px;
+    font-weight: 700;
+  }
+}
