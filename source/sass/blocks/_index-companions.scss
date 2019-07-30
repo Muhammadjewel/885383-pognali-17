@@ -3,6 +3,7 @@
   z-index: 4;
   top: -100px;
   padding-top: 120px;
+  padding-bottom: 30px;
   // background-image: url("../img/");
 }
 
@@ -12,4 +13,9 @@
 
 .index-companions__list {
   @include reset-list;
+  margin-bottom: 20px;
+}
+
+.index-companions__button {
+  @include rounded-button;
 }

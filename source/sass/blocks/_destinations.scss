@@ -20,13 +20,5 @@
 }
 
 .destinations__button {
-  display: block;
-  padding: 24px;
-  border-radius: 10px;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 18px;
-  font-weight: bold;
-  background-color: $accent-color-yellow;
-  color: $dark-color;
+  @include rounded-button;
 }
