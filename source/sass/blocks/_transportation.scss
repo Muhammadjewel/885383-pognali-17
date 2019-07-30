@@ -1,0 +1,10 @@
+.transportation {
+  @include reset-list;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.transportation__item {
+  margin: 0 8px;
+}

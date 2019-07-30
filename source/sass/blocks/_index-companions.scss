@@ -1,0 +1,15 @@
+.index-companions {
+  @include section-style($bgcolor: $dark-color, $color: #ffffff);
+  z-index: 4;
+  top: -100px;
+  padding-top: 120px;
+  // background-image: url("../img/");
+}
+
+.index-companions__lead {
+  margin-bottom: 57px;
+}
+
+.index-companions__list {
+  @include reset-list;
+}
