@@ -6,15 +6,15 @@
 
 .action-steps__list {
   position: relative;
-  top: -77px;
+  top: -70px;
   @include reset-list;
   font-size: 18px;
   line-height: 18px;
 }
 
 .action-steps__item {
-  padding: 20px;
-  padding-bottom: 30px;
+  padding: 23px;
+  padding-bottom: 31px;
   margin-top: -10px;
 
   &--first {
@@ -42,8 +42,8 @@
 
 .action-steps__text {
   display: inline-block;
+  width: 140px;
   vertical-align: top;
-  width: 160px;
 }
 
 .action-steps__order {
