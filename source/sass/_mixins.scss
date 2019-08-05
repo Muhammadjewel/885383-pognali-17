@@ -16,6 +16,7 @@
 
 @mixin section-style($bgcolor: #edeff6, $color: #444444) {
   position: relative;
+
   @include rounded-bottom(25px);
   background-color: $bgcolor;
   background-repeat: no-repeat;

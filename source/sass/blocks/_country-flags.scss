@@ -1,6 +1,7 @@
 .country-flags {
   display: flex;
   justify-content: center;
+
   @include reset-list;
 }
 

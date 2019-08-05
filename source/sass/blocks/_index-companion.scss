@@ -37,6 +37,7 @@
 
 .index-companion__card {
   position: relative;
+
   @include rounded-bottom(10px);
   padding-top: 27px;
   padding-bottom: 21px;

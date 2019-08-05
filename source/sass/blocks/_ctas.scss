@@ -1,6 +1,7 @@
 .ctas {
   position: absolute;
   display: flex;
+
   @include reset-list;
   margin-top: -20px;
 }

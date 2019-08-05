@@ -7,6 +7,7 @@
 .action-steps__list {
   position: relative;
   top: -70px;
+
   @include reset-list;
   font-size: 18px;
   line-height: 18px;
@@ -34,6 +35,7 @@
 
   &--fourth {
     padding-bottom: 20px;
+
     @include rounded-top(10px);
     @include rounded-bottom(10px);
     background-color: $accent-color-yellow;
