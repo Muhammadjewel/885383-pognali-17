@@ -1,5 +1,9 @@
 .socials {
   @include reset-list;
+
+  &--site-footer {
+    margin-bottom: 37px;
+  }
 }
 
 .socials__link {
