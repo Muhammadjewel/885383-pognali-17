@@ -1,4 +1,6 @@
 .site-header {
+  position: relative;
+
   @include rounded-bottom(20px);
   background:
     url("../img/traveller-illustration-mobile@1x.png") no-repeat 79px 223px,
