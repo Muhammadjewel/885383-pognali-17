@@ -1,4 +1,5 @@
 .site-header {
+  @include rounded-bottom(20px);
   background:
     url("../img/traveller-illustration-mobile@1x.png") no-repeat 79px 223px,
     url("../img/globe-back-mobile@1x.jpg") no-repeat top left / cover;
@@ -18,4 +19,24 @@
   height: 19px;
   font-size: 0;
   vertical-align: middle;
+}
+
+.site-header__page-name {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 36px;
+  line-height: 40px;
+  color: #ffffff;
+
+  &::after {
+    position: absolute;
+    top: calc(100% + 7px);
+    left: 0;
+    right: 0;
+    height: 5px;
+    border-radius: 2.5px;
+    background-color: #ff8d30;
+    content: "";
+  }
 }
