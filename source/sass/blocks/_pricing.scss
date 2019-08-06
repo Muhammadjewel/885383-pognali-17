@@ -19,6 +19,7 @@
 
 .pricing__list {
   width: 200px;
+
   @include reset-list;
   padding: 0 25px;
   border-top: 1px solid #e2e4ea;
