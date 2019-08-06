@@ -73,44 +73,50 @@
 
     <!-- SITE-CONTENT -->
     <main class="site-content">
-      <section class="companions site-section site-section--light">
+      <section class="catalog-companions">
         <div class="container">
           <h2 class="site-content__title visually-hidden">Список попутчиков</h2>
-          <ul class="companions__list">
-            <li class="companions__item companion">
-              <div class="companion__img-wrapper">
-                <img class="companion__img companion__img--round" src="https://placehold.it/70x70" alt="Таня Фирсова" width="70" height="70">
+          <ul class="catalog-companions__list">
+            <li class="catalog-companions__item catalog-companion">
+              <header class="catalog-companion__header">
+                <div class="catalog-companion__avatar-box">
+                  <img class="catalog-companion__avatar" src="https://placehold.it/70x70" alt="Таня Фирсова" width="70" height="70">
+                  <span class="catalog-companion__favorite"></span>
+                </div>
+                <div class="catalog-companion__name-box">
+                  <h3 class="catalog-companion__name">Таня Фирсова</h3>
+                  <span class="catalog-companion__likes">1,5 М</span>
+                </div>
+              </header>
+              <div class="tags catalog-companion__tags">
+                <h4 class="visually-hidden">Теги</h4>
+                <a class="tags__item tags__item--catalog" href="#">#ЗОЖ</a>
+                <a class="tags__item tags__item--catalog" href="#">#ПП</a>
+                <a class="tags__item tags__item--catalog" href="#">#Фитнес</a>
+                <a class="tags__item tags__item--catalog" href="#">#пляж</a>
+                <a class="tags__item tags__item--catalog" href="#">#авокадо</a>
+                <a class="tags__item tags__item--catalog" href="#">#смузи</a>
               </div>
-              <h3 class="companion__name companion__name--active">Таня Фирсова</h3>
-              <span class="companion__followers">1,5 М</span>
-              <div class="tags companion__tags">
-                <a class="tags__item" href="#">#ЗОЖ</a>
-                <a class="tags__item" href="#">#ПП</a>
-                <a class="tags__item" href="#">#Фитнес</a>
-                <a class="tags__item" href="#">#пляж</a>
-                <a class="tags__item" href="#">#авокадо</a>
-                <a class="tags__item" href="#">#смузи</a>
-              </div>
-              <div class="countries">
-                <span class="companion__label">хочет посетить:</span>
+              <div class="countries catalog-companion__countries">
+                <h4 class="catalog-companion__label">хочет посетить:</h4>
                 <ul class="countries__list">
                   <li class="countries__item">
-                    <img class="countries__img" src="https://placehold.it/26x18" alt="Флаг Шри-Ланки" width="26" height="18">
-                    <strong class="countries__name">Шри-Ланка</strong>
+                    <img class="countries__img" src="https://placehold.it/26x18" alt="Флаг Шри ланки" width="26" height="18">
+                    <strong class="countries__name">Шри ланка</strong>
                   </li>
                   <li class="countries__item">
                     <img class="countries__img" src="https://placehold.it/26x18" alt="Флаг Тайланда" width="26" height="18">
                     <strong class="countries__name">Тайланд</strong>
                   </li>
                   <li class="countries__item">
-                    <img class="countries__img" src="https://placehold.it/26x18" alt="Флаг Сейшелл" width="26" height="18">
-                    <strong class="countries__name">Сейшеллы</strong>
+                    <img class="countries__img" src="https://placehold.it/26x18" alt="Флаг Сейшеллов" width="26" height="18">
+                    <strong class="countries__name">Сейшелы</strong>
                   </li>
                 </ul>
               </div>
               <div class="transportation-level-wrapper">
                 <div class="transportation">
-                  <span class="companion__label">транспорт:</span>
+                  <h4 class="catalog-companion__label">транспорт:</h4>
                   <ul class="transportation__list">
                     <li class="transportation__item transportation__item--active">
                       <img src="https://placehold.it/20x20" alt="Иконка самолёта" width="20" height="20">
@@ -130,28 +136,34 @@
                     </li>
                   </ul>
                 </div>
-                <div class="companion__level-wrapper">
-                  <span class="companion__label">левел:</span>
-                  <span class="companion__level">99</span>
+                <div class="catalog-companion__level-wrapper">
+                  <span class="catalog-companion__label">левел:</span>
+                  <span class="catalog-companion__level">99</span>
                 </div>
               </div>
-              <a href="#" class="button button--round">Позвать</a>
+              <a href="#" class="catalog-companion__button">Позвать</a>
             </li>
-            <li class="companions__item companion">
-              <div class="companion__img-wrapper">
-                <img class="companion__img companion__img--round" src="https://placehold.it/70x70" alt="Таня Фирсова" width="70" height="70">
+            <li class="catalog-companions__item catalog-companion">
+              <header class="catalog-companion__header">
+                <div class="catalog-companion__avatar-box">
+                  <img class="catalog-companion__avatar" src="https://placehold.it/70x70" alt="Петя Демин" width="70" height="70">
+                  <span class="catalog-companion__favorite"></span>
+                </div>
+                <div class="catalog-companion__name-box">
+                  <h3 class="catalog-companion__name">Петя Демин</h3>
+                  <span class="catalog-companion__likes">150</span>
+                </div>
+              </header>
+              <div class="tags catalog-companion__tags">
+                <h4 class="visually-hidden">Теги</h4>
+                <a class="tags__item tags__item--catalog" href="#">#бургер</a>
+                <a class="tags__item tags__item--catalog" href="#">#бар</a>
+                <a class="tags__item tags__item--catalog" href="#">#футбол</a>
+                <a class="tags__item tags__item--catalog" href="#">#концерт</a>
+                <a class="tags__item tags__item--catalog" href="#">#крафт</a>
               </div>
-              <h3 class="companion__name companion__name--inactive">Петя Демин</h3>
-              <span class="companion__followers">150</span>
-              <div class="tags companion__tags">
-                <a class="tags__item" href="#">#бургер</a>
-                <a class="tags__item" href="#">#бар</a>
-                <a class="tags__item" href="#">#футбол</a>
-                <a class="tags__item" href="#">#концерт</a>
-                <a class="tags__item" href="#">#крафт</a>
-              </div>
-              <div class="countries">
-                <span class="companion__label">хочет посетить:</span>
+              <div class="countries catalog-companion__countries">
+                <h4 class="catalog-companion__label">хочет посетить:</h4>
                 <ul class="countries__list">
                   <li class="countries__item">
                     <img class="countries__img" src="https://placehold.it/26x18" alt="Флаг Бельгии" width="26" height="18">
@@ -165,7 +177,7 @@
               </div>
               <div class="transportation-level-wrapper">
                 <div class="transportation">
-                  <span class="companion__label">транспорт:</span>
+                  <h4 class="catalog-companion__label">транспорт:</h4>
                   <ul class="transportation__list">
                     <li class="transportation__item transportation__item--active">
                       <img src="https://placehold.it/20x20" alt="Иконка самолёта" width="20" height="20">
@@ -185,28 +197,34 @@
                     </li>
                   </ul>
                 </div>
-                <div class="companion__level-wrapper">
-                  <span class="companion__label">левел:</span>
-                  <span class="companion__level">80</span>
+                <div class="catalog-companion__level-wrapper">
+                  <span class="catalog-companion__label">левел:</span>
+                  <span class="catalog-companion__level">80</span>
                 </div>
               </div>
-              <a href="#" class="button button--round">Позвать</a>
+              <a href="#" class="catalog-companion__button">Позвать</a>
             </li>
-            <li class="companions__item companion">
-              <div class="companion__img-wrapper">
-                <img class="companion__img companion__img--round" src="https://placehold.it/70x70" alt="Марк Смолов" width="70" height="70">
+            <li class="catalog-companions__item catalog-companion">
+              <header class="catalog-companion__header">
+                <div class="catalog-companion__avatar-box">
+                  <img class="catalog-companion__avatar" src="https://placehold.it/70x70" alt="Марк Смолов" width="70" height="70">
+                  <span class="catalog-companion__favorite"></span>
+                </div>
+                <div class="catalog-companion__name-box">
+                  <h3 class="catalog-companion__name">Марк Смолов</h3>
+                  <span class="catalog-companion__likes">1700</span>
+                </div>
+              </header>
+              <div class="tags catalog-companion__tags">
+                <h4 class="visually-hidden">Теги</h4>
+                <a class="tags__item tags__item--catalog" href="#">#рэп</a>
+                <a class="tags__item tags__item--catalog" href="#">#тату</a>
+                <a class="tags__item tags__item--catalog" href="#">#хайпбист</a>
+                <a class="tags__item tags__item--catalog" href="#">#кроссовки</a>
+                <a class="tags__item tags__item--catalog" href="#">#суприм</a>
               </div>
-              <h3 class="companion__name companion__name--inactive">Марк Смолов</h3>
-              <span class="companion__followers">1700</span>
-              <div class="tags companion__tags">
-                <a class="tags__item" href="#">#рэп</a>
-                <a class="tags__item" href="#">#тату</a>
-                <a class="tags__item" href="#">#хайпбист</a>
-                <a class="tags__item" href="#">#кроссовки</a>
-                <a class="tags__item" href="#">#суприм</a>
-              </div>
-              <div class="countries">
-                <span class="companion__label">хочет посетить:</span>
+              <div class="countries catalog-companion__countries">
+                <h4 class="catalog-companion__label">хочет посетить:</h4>
                 <ul class="countries__list">
                   <li class="countries__item">
                     <img class="countries__img" src="https://placehold.it/26x18" alt="Флаг США" width="26" height="18">
@@ -224,7 +242,7 @@
               </div>
               <div class="transportation-level-wrapper">
                 <div class="transportation">
-                  <span class="companion__label">транспорт:</span>
+                  <h4 class="catalog-companion__label">транспорт:</h4>
                   <ul class="transportation__list">
                     <li class="transportation__item transportation__item--active">
                       <img src="https://placehold.it/20x20" alt="Иконка самолёта" width="20" height="20">
@@ -244,27 +262,33 @@
                     </li>
                   </ul>
                 </div>
-                <div class="companion__level-wrapper">
-                  <span class="companion__label">левел:</span>
-                  <span class="companion__level">25</span>
+                <div class="catalog-companion__level-wrapper">
+                  <span class="catalog-companion__label">левел:</span>
+                  <span class="catalog-companion__level">25</span>
                 </div>
               </div>
-              <a href="#" class="button button--round">Позвать</a>
+              <a href="#" class="catalog-companion__button">Позвать</a>
             </li>
-            <li class="companions__item companion">
-              <div class="companion__img-wrapper">
-                <img class="companion__img companion__img--round" src="https://placehold.it/70x70" alt="Лариса Роговая" width="70" height="70">
+            <li class="catalog-companions__item catalog-companion">
+              <header class="catalog-companion__header">
+                <div class="catalog-companion__avatar-box">
+                  <img class="catalog-companion__avatar" src="https://placehold.it/70x70" alt="Лариса Роговая" width="70" height="70">
+                  <span class="catalog-companion__favorite"></span>
+                </div>
+                <div class="catalog-companion__name-box">
+                  <h3 class="catalog-companion__name">Лариса Роговая</h3>
+                  <span class="catalog-companion__likes">23</span>
+                </div>
+              </header>
+              <div class="tags catalog-companion__tags">
+                <h4 class="visually-hidden">Теги</h4>
+                <a class="tags__item tags__item--catalog" href="#">#образование</a>
+                <a class="tags__item tags__item--catalog" href="#">#карьера</a>
+                <a class="tags__item tags__item--catalog" href="#">#учеба</a>
+                <a class="tags__item tags__item--catalog" href="#">#линкедин</a>
               </div>
-              <h3 class="companion__name companion__name--inactive">Лариса Роговая</h3>
-              <span class="companion__followers">23</span>
-              <div class="tags companion__tags">
-                <a class="tags__item" href="#">#образование</a>
-                <a class="tags__item" href="#">#карьера</a>
-                <a class="tags__item" href="#">#учеба</a>
-                <a class="tags__item" href="#">#линкедин</a>
-              </div>
-              <div class="countries">
-                <span class="companion__label">хочет посетить:</span>
+              <div class="countries catalog-companion__countries">
+                <h4 class="catalog-companion__label">хочет посетить:</h4>
                 <ul class="countries__list">
                   <li class="countries__item">
                     <img class="countries__img" src="https://placehold.it/26x18" alt="Флаг Великобритании" width="26" height="18">
@@ -278,7 +302,7 @@
               </div>
               <div class="transportation-level-wrapper">
                 <div class="transportation">
-                  <span class="companion__label">транспорт:</span>
+                  <h4 class="catalog-companion__label">транспорт:</h4>
                   <ul class="transportation__list">
                     <li class="transportation__item transportation__item--active">
                       <img src="https://placehold.it/20x20" alt="Иконка самолёта" width="20" height="20">
@@ -298,15 +322,18 @@
                     </li>
                   </ul>
                 </div>
-                <div class="companion__level-wrapper">
-                  <span class="companion__label">левел:</span>
-                  <span class="companion__level">50</span>
+                <div class="catalog-companion__level-wrapper">
+                  <span class="catalog-companion__label">левел:</span>
+                  <span class="catalog-companion__level">50</span>
                 </div>
               </div>
-              <a href="#" class="button button--round">Позвать</a>
+              <a href="#" class="catalog-companion__button">Позвать</a>
             </li>
           </ul>
-          <button type="button">Показать еще</button>
+          <button class="catalog-companions__more-button" type="button">
+            <img class="catalog-companion__plus" src="https://placehold.it/18x18" alt="Иконка плюс" width="18" height="18">
+            Показать еще
+          </button>
           <ul class="pagination">
             <li class="pagination__item pagination__item--prev"><a class="pagination__link" href="#">Предыдущая страница</a></li>
             <li class="pagination__item pagination__item--next"><a class="pagination__link" href="#">Следующая страница</a></li>

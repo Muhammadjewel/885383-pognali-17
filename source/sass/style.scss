@@ -5,6 +5,7 @@
 @import "general";
 @import "blocks/visually-hidden";
 @import "blocks/container";
+@import "blocks/site-content";
 @import "blocks/site-header";
 @import "blocks/logo";
 @import "blocks/site-navigation";
@@ -19,8 +20,12 @@
 @import "blocks/destination";
 @import "blocks/index-companions";
 @import "blocks/index-companion";
+@import "blocks/catalog-companions";
+@import "blocks/catalog-companion";
 @import "blocks/country-flags";
 @import "blocks/tags";
 @import "blocks/transportation";
+@import "blocks/countries";
 @import "blocks/pricing";
+@import "blocks/pagination";
 @import "blocks/site-footer";

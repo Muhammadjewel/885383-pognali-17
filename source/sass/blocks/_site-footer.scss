@@ -1,6 +1,8 @@
 .site-footer {
   @include rounded-top(25px);
   padding-top: 38px;
+  margin-top: -15px;
+  background-color: #ffffff;
   text-align: center;
 }
 

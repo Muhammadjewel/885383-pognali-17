@@ -1,8 +1,11 @@
 .transportation {
-  @include reset-list;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.transportation__list {
+  @include reset-list;
 }
 
 .transportation__item {

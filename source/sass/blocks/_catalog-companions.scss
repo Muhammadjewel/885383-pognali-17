@@ -1,0 +1,18 @@
+.catalog-companions__list {
+  @include reset-list;
+  padding-top: 38px;
+}
+
+.catalog-companions__more-button {
+  display: block;
+  width: 100%;
+  border: none;
+  margin: 24px 0;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: bold;
+  background: none;
+  color: #1d2e5b;
+  text-align: center;
+  text-transform: uppercase;
+}

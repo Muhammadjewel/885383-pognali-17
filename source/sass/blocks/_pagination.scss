@@ -1,0 +1,21 @@
+.pagination {
+  @include reset-list;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.pagination__item {
+  width: 50%;
+  height: 50px;
+  font-size: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  &--prev {
+    background-image: url("https://placehold.it/10x20");
+  }
+
+  &--next {
+    background-image: url("https://placehold.it/10x20");
+  }
+}
