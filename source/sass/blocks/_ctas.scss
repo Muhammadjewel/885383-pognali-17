@@ -1,0 +1,41 @@
+.ctas {
+  position: absolute;
+  display: flex;
+
+  @include reset-list;
+  margin-top: -20px;
+}
+
+.ctas__link {
+  display: block;
+  padding: 13px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: $button-text-color;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+
+  &--phone {
+    width: 40px;
+    height: 40px;
+    font-size: 0;
+    line-height: 0;
+    background-color: $accent-color-orange;
+  }
+
+  &--mail {
+    width: 40px;
+    height: 40px;
+    font-size: 0;
+    line-height: 0;
+    background-color: $accent-color-yellow-hover;
+  }
+
+  &--auth {
+    font-size: 17px;
+    line-height: 30px;
+    padding: 7px 40px 3px 37px;
+    background-color: $accent-color-yellow;
+  }
+}

@@ -1,0 +1,53 @@
+.action-steps {
+  background-color: $dark-color;
+  color: $button-text-color;
+  font-weight: bold;
+}
+
+.action-steps__list {
+  position: relative;
+  top: -70px;
+
+  @include reset-list;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.action-steps__item {
+  padding: 23px;
+  padding-bottom: 31px;
+  margin-top: -10px;
+
+  &--first {
+    @include rounded-top(10px);
+    background-color: $accent-color-orange;
+  }
+
+  &--second {
+    @include rounded-top(10px);
+    background-color: $accent-color-light-orange;
+  }
+
+  &--third {
+    @include rounded-top(10px);
+    background-color: $accent-color-yellow-hover;
+  }
+
+  &--fourth {
+    padding-bottom: 20px;
+
+    @include rounded-top(10px);
+    @include rounded-bottom(10px);
+    background-color: $accent-color-yellow;
+  }
+}
+
+.action-steps__text {
+  display: inline-block;
+  width: 140px;
+  vertical-align: top;
+}
+
+.action-steps__order {
+  color: #ffffff;
+}

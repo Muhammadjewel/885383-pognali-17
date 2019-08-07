@@ -1,0 +1,42 @@
+.pricing {
+  @include section-style;
+  z-index: 3;
+  top: -130px;
+  padding-top: 80px;
+  padding-bottom: 38px;
+  background-image: url("../img/rates@1x.png");
+  background-size: 99px 99px;
+  background-position: 195px 60px;
+}
+
+.pricing__heading-wrapper {
+  margin-bottom: 44px;
+}
+
+.pricing__heading {
+  width: 170px;
+}
+
+.pricing__list {
+  width: 200px;
+
+  @include reset-list;
+  padding: 0 25px;
+  border-top: 1px solid #e2e4ea;
+  margin-bottom: 31px;
+  font-weight: 300;
+}
+
+.pricing__item {
+  padding: 11px 0;
+  border-bottom: 1px solid #e2e4ea;
+}
+
+.pricing__link {
+  display: inline-block;
+  padding: 0 23px;
+  line-height: 16px;
+  font-weight: bold;
+  color: #192144;
+  text-decoration: none;
+}

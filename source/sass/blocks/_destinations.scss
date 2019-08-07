@@ -1,0 +1,24 @@
+.destinations {
+  @include section-style;
+  z-index: 5;
+  top: -80px;
+  padding-top: 113px;
+  padding-bottom: 30px;
+}
+
+.destinations__item {
+  margin-bottom: 10px;
+}
+
+.destinations__text {
+  margin-bottom: 60px;
+}
+
+.destinations__list {
+  @include reset-list;
+  margin-bottom: 25px;
+}
+
+.destinations__button {
+  @include rounded-button;
+}

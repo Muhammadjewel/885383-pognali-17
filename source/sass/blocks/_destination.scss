@@ -1,0 +1,35 @@
+.destination__img {
+  border-radius: 10px;
+  vertical-align: middle;
+}
+
+.destination__card {
+  position: relative;
+  margin-top: -10px;
+  padding: 28px 24px 22px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.destination__flag {
+  position: absolute;
+  top: -12px;
+  border-radius: 5px;
+}
+
+.destination__name {
+  margin: 0;
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.destination__visitors-count {
+  color: rgba(68, 68, 68, 0.3);
+}
+
+.destination__lead {
+  margin: 0;
+  font-size: 16px;
+  line-height: 18px;
+  color: rgba(68, 68, 68, 0.3);
+}

@@ -1,0 +1,16 @@
+.site-footer {
+  @include rounded-top(25px);
+  padding-top: 38px;
+  margin-top: -15px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.site-footer__copyright {
+  border-top: 1px solid #e2e4ea;
+}
+
+.site-footer__academy-img {
+  width: 27px;
+  height: 34px;
+}

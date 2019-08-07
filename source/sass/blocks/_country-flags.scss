@@ -1,0 +1,16 @@
+.country-flags {
+  display: flex;
+  justify-content: center;
+
+  @include reset-list;
+}
+
+.country-flags__item {
+  margin: 0 8px;
+}
+
+.country-flags__img {
+  width: 35px;
+  height: 24px;
+  border-radius: 5px;
+}
